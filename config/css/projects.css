@@ -1,0 +1,75 @@
+.aproject 
+{
+    box-sizing: border-box;
+    display: inline-block;
+    
+    margin: 10px;
+    padding: 0px;
+
+    text-decoration: none;
+}
+.aproject  .project .icon:hover
+{
+    border: none;
+    border: 2px solid #333;
+}
+.aproject  .project
+{
+    box-sizing: border-box;
+    display: block;
+    
+    height:100px;
+    width:100px;
+    
+    margin: 0px;
+    padding: 0px;
+}
+.aproject  .project .icon , .aproject  .project .library
+{
+    height:100px;
+    width: 100px;
+    
+    background-image: url("../img/folder.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    border: 2px solid #fff;
+}
+
+.aproject  .project h5
+{
+    display: inline-block;
+    box-sizing: border-box;
+    
+    margin: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    padding: 0px;
+    width: 100px;
+    
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFF;
+    position: relative;
+    
+    bottom: 20px;
+}
+.aproject  .project .library
+{
+     background-image: url("../img/Libraries.png");
+}
+.aproject  .project .library:hover
+{
+    border: none;
+    border: 2px solid #333;
+}
+#launcher_panel
+{
+    display: inline-block;
+    box-sizing: border-box;
+    
+    width: 800px;
+}

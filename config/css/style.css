@@ -1,0 +1,48 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace ;
+  font-weight: bold;
+  font-size: 1.2em;
+  min-width: 400px;
+  min-height:440px; 
+}
+#header,#footer
+{
+  box-sizing: border-box;
+  display: block;
+  position: fixed;
+  height:3em;
+  width:100%;
+  overflow: hidden;
+
+}
+#header
+{
+  top: 0px;
+  box-shadow: rgba(0,0,0,0.5) 0px 0px 5px;
+  background-color:rgba(0,167,216,0.5);
+  color: #FFFFFF;
+  padding: 0.3%;
+}
+#footer
+{
+  bottom: 0px;
+  min-width: 444px;
+  box-shadow: rgba(0,0,0,0.5) 0px 0px 5px;
+  background-color:rgba(0,167,216,0.5);
+}
+#header section h3  
+{
+  box-sizing: border-box;
+  display: inline-block;
+  margin-left: 2%;
+  text-shadow: rgba(0,0,0,0.7) 2px 3px 1px; 
+}
+#container
+{
+  margin: 0px;
+  margin-top: 3em;
+  padding: 15px;
+}

@@ -1,0 +1,70 @@
+#formplugin
+{
+    display: block;
+    box-sizing: border-box;
+    width: 280px;
+    height: auto;
+    /*margin: auto;*/
+    padding: 10px;
+    background-color:#333;
+    /*border:3px solid #444;*/
+}
+#formplugin table tr td
+{
+      width:250px;
+}
+#formplugin input ,#formplugin textarea 
+{
+    height: 35px;
+    width:95%;
+    padding-left:10px;
+    font-weight: bold;
+    background-color: #555;
+    border: none;
+    color: #FFF;
+}
+#formplugin textarea
+{
+    height:70px;
+    width:94%;
+    resize: none;
+}
+#formplugin h3
+{
+    text-align: center;
+}
+
+.formbutton, #sendnewplugin
+{
+    display: block;
+    box-sizing: border-box;
+    height:50px;
+    margin: auto;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 5px;
+    
+}
+}
+#sendnewplugin
+{  
+   display: block;
+   text-align: center;
+   color: #FFF;
+   box-sizing: border-box;
+   background: rgba(0,0,0,0.6);
+   text-decoration: none;
+   font-family: monospace;
+   font-size: 1.3em;
+   font-weight: bold;
+}
+#sendnewplugin:hover,#formplugin input:hover
+{
+    border: 2px solid #00BFFF;
+}
+#sendnewplugin:active
+{
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 7px inset;
+}
+#sendnewplugin:hover
+{
+    color:  #00BFFF;
+}

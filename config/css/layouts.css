@@ -1,0 +1,29 @@
+/* layouts */
+.L
+{
+    float: left;
+}
+
+.R
+{
+    float: right;
+}
+
+.C
+{
+    margin: 0px auto 0px auto; 
+}
+.Bottom
+{
+    position: absolute;
+    bottom: 14px;
+    margin: 0px;
+    padding: 0pX;
+}
+.Top
+{
+    position: absolute;
+    top:0px;
+    margin: 0px;
+    padding: 0pX;
+}
